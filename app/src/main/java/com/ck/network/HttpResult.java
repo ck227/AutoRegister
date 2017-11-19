@@ -6,11 +6,13 @@ package com.ck.network;
 
 public class HttpResult {
 
+    //拿手机号，拿验证码
     public static class StringResponse {
         public String result;
     }
 
-    public static class getCodeResponse {
+    //发验证码，注册
+    public static class CodeResponse {
         public Boolean error;
         public String result;
     }
